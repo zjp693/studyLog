@@ -6,10 +6,12 @@
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
-    我是空的全新vue3+vite+axios+elementPlus的空模板
   </div>
+  <Home></Home>
 </template>
-<script setup></script>
+<script setup>
+import Home from "./views/Home.vue";
+</script>
 <style scoped>
 .logo {
   height: 6em;
